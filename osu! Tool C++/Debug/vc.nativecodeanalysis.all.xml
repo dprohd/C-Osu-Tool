@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>cheat.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cheat::time_address' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cheat::{ctor}</FUNCTION>
+    <DECORATED>??0cheat@@QAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>cheat.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>cheat::{ctor}</FUNCTION>
+    <DECORATED>??0cheat@@QAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>cheat.cpp</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>cheat::get_current_song_path</FUNCTION>
+    <DECORATED>?get_current_song_path@cheat@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>genRandom</FUNCTION>
+    <DECORATED>?genRandom@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>memory.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'i' could be '0':  this does not adhere to the specification for the function 'ReadProcessMemory'. </DESCRIPTION>
+    <FUNCTION>memory::find_pattern</FUNCTION>
+    <DECORATED>?find_pattern@memory@@QBEKQAE@Z</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;2147483647')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Input to 'ReadProcessMemory' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\memoryapi.h:227)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' should not be NULL, because this is not consistent with the SAL annotation on 'ReadProcessMemory'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>osu_beatmap.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'osu::beatmap::difficulty' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>osu::beatmap::{ctor}</FUNCTION>
+    <DECORATED>??0beatmap@osu@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N1@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>osu_hit_object.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'osu::hit_object::end_time' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>osu::hit_object::{ctor}</FUNCTION>
+    <DECORATED>??0hit_object@osu@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>vector2.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>vector2::{ctor}</FUNCTION>
+    <DECORATED>??0vector2@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>vector2.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vector2::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vector2::{ctor}</FUNCTION>
+    <DECORATED>??0vector2@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

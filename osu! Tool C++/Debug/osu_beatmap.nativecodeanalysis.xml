@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>osu_beatmap.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'osu::beatmap::difficulty' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>osu::beatmap::{ctor}</FUNCTION>
+    <DECORATED>??0beatmap@osu@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N1@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>osu_beatmap.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'osu::beatmap::circle_radius' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>osu::beatmap::{ctor}</FUNCTION>
+    <DECORATED>??0beatmap@osu@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N1@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>osu_beatmap.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'osu::beatmap::circle_diameter' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>osu::beatmap::{ctor}</FUNCTION>
+    <DECORATED>??0beatmap@osu@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N1@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>osu_beatmap.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'osu::beatmap::general' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>osu::beatmap::{ctor}</FUNCTION>
+    <DECORATED>??0beatmap@osu@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N1@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>osu_hit_object.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'osu::hit_object::end_time' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>osu::hit_object::{ctor}</FUNCTION>
+    <DECORATED>??0hit_object@osu@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>osu_hit_object.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'osu::hit_object::start_time' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>osu::hit_object::{ctor}</FUNCTION>
+    <DECORATED>??0hit_object@osu@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>osu_hit_object.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'osu::hit_object::type' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>osu::hit_object::{ctor}</FUNCTION>
+    <DECORATED>??0hit_object@osu@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>osu_hit_object.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'osu::hit_object::slider_type' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>osu::hit_object::{ctor}</FUNCTION>
+    <DECORATED>??0hit_object@osu@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>osu_hit_object.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'osu::hit_object::slider_repeat' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>osu::hit_object::{ctor}</FUNCTION>
+    <DECORATED>??0hit_object@osu@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>osu_hit_object.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'osu::hit_object::slider_pixel_length' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>osu::hit_object::{ctor}</FUNCTION>
+    <DECORATED>??0hit_object@osu@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

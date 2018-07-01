@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>memory.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'i' could be '0':  this does not adhere to the specification for the function 'ReadProcessMemory'. </DESCRIPTION>
+    <FUNCTION>memory::find_pattern</FUNCTION>
+    <DECORATED>?find_pattern@memory@@QBEKQAE@Z</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;2147483647')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Input to 'ReadProcessMemory' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\memoryapi.h:227)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+        <FILENAME>memory.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' should not be NULL, because this is not consistent with the SAL annotation on 'ReadProcessMemory'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

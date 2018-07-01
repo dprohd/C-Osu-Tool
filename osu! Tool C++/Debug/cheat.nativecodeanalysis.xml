@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>cheat.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cheat::time_address' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cheat::{ctor}</FUNCTION>
+    <DECORATED>??0cheat@@QAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>cheat.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cheat::audio_playing_address' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cheat::{ctor}</FUNCTION>
+    <DECORATED>??0cheat@@QAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>cheat.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>cheat::{ctor}</FUNCTION>
+    <DECORATED>??0cheat@@QAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yasazuki mitsuhira\desktop\osu-tool-cpp-master\osu! tool c++\</FILEPATH>
+      <FILENAME>cheat.cpp</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>cheat::get_current_song_path</FUNCTION>
+    <DECORATED>?get_current_song_path@cheat@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
